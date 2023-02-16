@@ -10,6 +10,6 @@ COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 RUN pip install --upgrade pip
-RUN pip install chalice
+RUN pip install chalice boto3
 
 ENTRYPOINT ["/entrypoint.sh"]

@@ -1,5 +1,5 @@
 #!/bin/sh -l
 
-pip install -r requirements.txt -t ./vendor
+pip install -r requirements.txt
 
 chalice deploy --stage=$STAGE

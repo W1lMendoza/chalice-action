@@ -1,0 +1,6 @@
+name: Deploy chalice app
+description: Deploy chalice app
+author: 'Wilson Mendoza <wilson.mendoza@mango-soft.com>'
+runs:
+  using: "docker"
+  image: "Dockerfile"
